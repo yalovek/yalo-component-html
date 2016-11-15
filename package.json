@@ -1,0 +1,16 @@
+{
+  "name": "yalo-component-html",
+  "version": "1.0.0",
+  "description": "Yalo component for html tag",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "component",
+    "react",
+    "html"
+  ],
+  "author": "Vadim Yalovenko",
+  "license": "MIT"
+}
