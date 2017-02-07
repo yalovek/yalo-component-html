@@ -12,5 +12,30 @@
     "html"
   ],
   "author": "Vadim Yalovenko",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.2"
+  },
+  "engine": {
+    "node": "6.9.1",
+    "npm": "3.10.7"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "import"
+    ]
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
+  }
 }
